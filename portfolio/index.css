@@ -86,6 +86,55 @@
   background-color: #0056b3;
 }
 
+/* CSS for the Skills Section */
+.skills-section {
+  background-color: #f8f9fa; /* Light gray background color */
+  padding: 60px 0;
+}
+
+.skills-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills-section .card {
+  border: none;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.skills-section .card:hover {
+  transform: translateY(-5px);
+}
+
+.skills-section .icon {
+  font-size: 3rem;
+  color: #007bff; /* Blue color, adjust as needed */
+  margin: 20px 0;
+}
+
+.skills-section .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.skills-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .skills-section .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
 /* CSS for the Projects Section */
 .projects-section {
   background-color: #f8f9fa; 
@@ -101,6 +150,8 @@
 .projects-section .card {
   border: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
 }
 
 .projects-section .card:hover {
