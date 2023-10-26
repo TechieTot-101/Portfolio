@@ -54,29 +54,73 @@
     border-radius: 11px;
   }
 
-  /* CSS for the hero banner */
+  /* CSS for the Hero Banner */
 .hero-banner {
-  background-color: #000; 
-  padding: 100px 0; 
+  background: url('your-background-image.jpg') center center;
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
 }
 
 .hero-banner h1 {
   font-size: 3rem;
-  color: #fff;
-  text-align: center;
-  
+  color: #1e0303;
 }
-.hero-banner p{
-  color: #fff;
-  text-align: center;
+
+.hero-banner p {
+  color: #221313;
+  font-size: 1.25rem;
 }
 
 .hero-banner .btn-primary {
-  /* Button styles */
-  margin-top: 20px; 
-  padding: 20px;
-  justify-content: center;
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
+
+.hero-banner .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* CSS for the Footer */
+footer {
+  padding: 30px 0;
+}
+
+footer h5 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+footer p {
+  color: #ccc;
+}
+
+footer ul.list-unstyled li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer ul.list-unstyled li a:hover {
+  color: #007bff;
+}
+
+footer .list-inline-item a {
+  font-size: 1.5rem;
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer .list-inline-item a:hover {
+  color: #007bff;
+}
+
   
   @media (max-width: 768px) {
     .navbar-toggler {
