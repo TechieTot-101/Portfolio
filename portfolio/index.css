@@ -86,6 +86,58 @@
   background-color: #0056b3;
 }
 
+/* CSS for the Projects Section */
+.projects-section {
+  background-color: #f8f9fa; 
+  padding: 60px 0;
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projects-section .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projects-section .card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s;
+}
+
+.projects-section .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.projects-section .card-text {
+  font-size: 1rem;
+  color: #777;
+}
+
+.projects-section .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.projects-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .projects-section .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+
 /* CSS for the Footer */
 footer {
   padding: 30px 0;
